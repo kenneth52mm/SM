@@ -10,7 +10,7 @@ public class UserService {
 
 	@GET
 	@Path("/test")
-	@Produces(MediaType.TEXT_XML) 
+	@Produces(MediaType.TEXT_XML)
 	public String test() {
 		return "<name>kenneth</name>";
 	}
